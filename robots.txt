@@ -1,0 +1,29 @@
+# robots.txt for Doctor Demo Dental Clinic
+# This file tells search engines how to crawl your website
+
+# Allow all robots to crawl the entire site
+User-agent: *
+Allow: /
+
+# Specify the sitemap location
+Sitemap: https://doctordemo.com/sitemap.xml
+
+# Specific rules for Google
+User-agent: Googlebot
+Allow: /
+
+# Specific rules for Bing
+User-agent: Bingbot
+Allow: /
+
+# Disallow crawling of certain paths if needed (examples)
+# Uncomment if you want to hide specific folders
+# Disallow: /private/
+# Disallow: /admin/
+
+# Crawl delay for respecting server resources
+# Optional: Uncomment if needed
+# Crawl-delay: 1
+
+# Request rate (optional)
+# Request-rate: 1/10s

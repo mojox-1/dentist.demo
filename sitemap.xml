@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Update the domain to your actual domain when deploying -->
+    
+    <!-- Homepage -->
+    <url>
+        <loc>https://doctordemo.com/index.html</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <!-- Services Page -->
+    <url>
+        <loc>https://doctordemo.com/pages/services.html</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <!-- Services - General Dentistry -->
+    <url>
+        <loc>https://doctordemo.com/pages/services.html#general</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Services - Cosmetic Dentistry -->
+    <url>
+        <loc>https://doctordemo.com/pages/services.html#cosmetic</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Services - Dental Implants -->
+    <url>
+        <loc>https://doctordemo.com/pages/services.html#implants</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Services - Clear Aligners -->
+    <url>
+        <loc>https://doctordemo.com/pages/services.html#aligners</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- About Page -->
+    <url>
+        <loc>https://doctordemo.com/pages/about.html</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>quarterly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Contact Page -->
+    <url>
+        <loc>https://doctordemo.com/pages/contact.html</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <!-- Blog Page -->
+    <url>
+        <loc>https://doctordemo.com/pages/blog.html</loc>
+        <lastmod>2026-01-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+</urlset>

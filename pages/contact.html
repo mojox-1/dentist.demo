@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Doctor Demo Dental Clinic. Get in touch for appointments, questions, or more information about our services.">
+    <title>Contact Us - Doctor Demo Dental Clinic</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/animations.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="site-header" class="site-header">
+        <div class="header-inner">
+            <div class="site-branding">
+                <a href="../index.html" class="logo-link">
+                    <img src="../assets/images/logo.webp" alt="Doctor Demo Logo" class="logo">
+                </a>
+            </div>
+            <nav class="main-nav">
+                <div class="menu-toggle" id="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="../index.html" class="nav-link">Home</a></li>
+                    <li class="dropdown">
+                        <a href="services.html" class="nav-link">Services ▼</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="services.html#general">General Dentistry</a></li>
+                            <li><a href="services.html#cosmetic">Cosmetic Dentistry</a></li>
+                            <li><a href="services.html#implants">Dental Implants</a></li>
+                            <li><a href="services.html#aligners">Clear Aligners</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="about.html" class="nav-link">About Us</a></li>
+                    <li><a href="contact.html" class="nav-link active">Contact</a></li>
+                    <li><a href="blog.html" class="nav-link">Blog</a></li>
+                </ul>
+            </nav>
+            <a href="https://wa.me/8801XXXXXXXXX" target="_blank" class="btn-appointment whatsapp-btn">
+                <i class="fa-brands fa-whatsapp"></i> Book Appointment
+            </a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Contact Hero -->
+        <section class="hero" style="padding: 3rem 20px;">
+            <div class="hero-content">
+                <h1>Contact Us</h1>
+                <p>Get in touch with Doctor Demo Dental Clinic. We're here to help!</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-main">
+                    <!-- Contact Info -->
+                    <div class="contact-info">
+                        <h2>Our Information</h2>
+                        
+                        <div class="contact-item">
+                            <h3>Location</h3>
+                            <p>123 Dental Street<br>Your City, Country 12345</p>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <h3>Phone</h3>
+                            <p><a href="tel:+15551234567">+1 (555) 123-4567</a></p>
+                            <p>Available during office hours</p>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <h3>Email</h3>
+                            <p><a href="mailto:info@doctordemo.com">info@doctordemo.com</a></p>
+                            <p>Response within 24 hours</p>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <h3>Hours</h3>
+                            <p>Saturday - Thursday: 2:00 PM - 10:00 PM</p>
+                            <p>Friday: Closed</p>
+                        </div>
+
+                        <div class="contact-item social-section">
+                            <h3>Follow Us</h3>
+                            <div class="social-links" style="color: white;">
+                                <a href="#" title="Facebook">Facebook</a>
+                                <a href="#" title="Instagram">Instagram</a>
+                                <a href="#" title="Twitter">Twitter</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form-wrapper">
+                        <h2>Send Us a Message</h2>
+                        <form class="contact-form" id="contact-form">
+                            <div class="form-group">
+                                <label for="contact-name">Full Name *</label>
+                                <input type="text" id="contact-name" name="name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="contact-email">Email Address *</label>
+                                <input type="email" id="contact-email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="contact-phone">Phone Number *</label>
+                                <input type="tel" id="contact-phone" name="phone" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="contact-subject">Subject *</label>
+                                <input type="text" id="contact-subject" name="subject" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="contact-message">Message *</label>
+                                <textarea id="contact-message" name="message" rows="5" required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Map Section -->
+                <div class="map-section">
+                    <h2>Find Us on Map</h2>
+                    <div class="map-container" id="map-placeholder">
+                        <p style="text-align: center; padding: 2rem;">
+                            Map integration: Add your Google Maps embed code here
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq-section">
+            <div class="container">
+                <h2>Frequently Asked Questions</h2>
+                
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <h3>How do I book an appointment?</h3>
+                        <p>You can book an appointment through our website using the appointment form, call us directly, or send us an email. We'll confirm your appointment within 24 hours.</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h3>Do you accept insurance?</h3>
+                        <p>Yes, we accept most dental insurance plans. Please contact us to verify coverage for your specific plan.</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h3>What should I bring to my first visit?</h3>
+                        <p>Please bring a valid ID, insurance card (if applicable), and any relevant medical history. Arrive 15 minutes early to fill out our patient form.</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h3>Do you offer emergency services?</h3>
+                        <p>Yes, we provide emergency dental services. Call us immediately if you have a dental emergency, and we'll fit you in as soon as possible.</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h3>How often should I visit?</h3>
+                        <p>We recommend visiting every 6 months for regular checkups and cleanings. However, the frequency may vary based on your individual oral health needs.</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h3>What payment methods do you accept?</h3>
+                        <p>We accept cash, credit cards, debit cards, and bank transfers. Flexible payment plans are also available for larger treatments.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="hours-section">
+            <div class="container">
+                <h2>Ready to Schedule Your Appointment?</h2>
+                <p style="color: white; font-size: 1.2rem; margin: 1rem 0;">Call us or submit the form above</p>
+                <a href="tel:+15551234567" class="btn btn-primary">Call Now</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Doctor Demo Clinic</h4>
+                    <p>Professional dental care for your healthy and beautiful smile.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li>Phone: +1 (555) 123-4567</li>
+                        <li>Email: info@doctordemo.com</li>
+                        <li>Address: Your City, Country</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" title="Facebook">f</a>
+                        <a href="#" title="Instagram">📷</a>
+                        <a href="#" title="Twitter">𝕏</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Doctor Demo Clinic. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../assets/js/main.js"></script>
+    <script>
+        // Handle contact form submission
+        document.getElementById('contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const name = this.querySelector('#contact-name').value;
+            const email = this.querySelector('#contact-email').value;
+            const phone = this.querySelector('#contact-phone').value;
+            const subject = this.querySelector('#contact-subject').value;
+            const message = this.querySelector('#contact-message').value;
+            
+            // Show success message
+            alert(`Thank you ${name}! Your message has been received. We'll contact you soon at ${email} or ${phone}.`);
+            
+            // Reset form
+            this.reset();
+        });
+    </script>
+</body>
+</html>
+
+<style>
+.contact-section {
+    padding: 3rem 20px;
+}
+
+.contact-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    margin-bottom: 3rem;
+}
+
+.contact-info {
+    background: linear-gradient(135deg, #07c2b9 0%, #069a94 100%);
+    color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+.contact-info h2 {
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.contact-item {
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.contact-item:last-child {
+    border-bottom: none;
+}
+
+.contact-item h3 {
+    color: #ffd700;
+    margin-bottom: 0.5rem;
+}
+
+.contact-item p {
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+.contact-item a {
+    color: #ffd700;
+}
+
+.contact-item a:hover {
+    color: white;
+}
+
+.social-section {
+    margin-top: 2rem;
+}
+
+.social-section .social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.social-section .social-links a {
+    padding: 0.5rem 0;
+}
+
+.contact-form-wrapper {
+    background: #f9f9f9;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.contact-form-wrapper h2 {
+    color: #07c2b9;
+    margin-bottom: 1.5rem;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.contact-form .form-group input,
+.contact-form .form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: inherit;
+}
+
+.contact-form .form-group textarea {
+    resize: vertical;
+}
+
+.contact-form .form-group input:focus,
+.contact-form .form-group textarea:focus {
+    outline: none;
+    border-color: #07c2b9;
+    box-shadow: 0 0 0 3px rgba(7, 194, 185, 0.1);
+}
+
+.contact-form .btn {
+    align-self: flex-start;
+}
+
+.map-section {
+    margin: 3rem 0;
+}
+
+.map-section h2 {
+    color: #07c2b9;
+    margin-bottom: 1.5rem;
+}
+
+.map-container {
+    background: #e8e8e8;
+    border-radius: 10px;
+    overflow: hidden;
+    min-height: 400px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.faq-section {
+    padding: 3rem 20px;
+    background: #f5f5f5;
+}
+
+.faq-section h2 {
+    text-align: center;
+    color: #07c2b9;
+    margin-bottom: 2rem;
+}
+
+.faq-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.faq-item {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.faq-item h3 {
+    color: #00a86b;
+    margin-bottom: 0.5rem;
+}
+
+.faq-item p {
+    color: #666;
+}
+
+@media (max-width: 768px) {
+    .contact-main {
+        grid-template-columns: 1fr;
+    }
+    
+    .map-container {
+        min-height: 250px;
+    }
+    
+    .faq-grid {
+        grid-template-columns: 1fr;
+    }
+}
+</style>

@@ -1,0 +1,95 @@
+/* ====================================
+   Icon Font Stylesheet (Optional)
+   Doctor Demo - Icon definitions
+   ==================================== */
+
+/* 
+   This file is for icon font definitions.
+   Currently using emoji/Unicode icons, but you can add
+   a proper icon font here for more control.
+   
+   Options:
+   1. Font Awesome (popular, comprehensive)
+   2. Material Icons (Google's icons)
+   3. Custom icon font (with ttf/woff2 files)
+*/
+
+/* Example: Font Awesome Integration */
+/*
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../fonts/fontawesome.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.icon::before {
+    font-family: 'FontAwesome';
+    font-weight: normal;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+}
+
+.icon-phone::before { content: "\f095"; }
+.icon-envelope::before { content: "\f0e0"; }
+.icon-map-marker::before { content: "\f041"; }
+.icon-clock::before { content: "\f017"; }
+*/
+
+/* 
+   Alternative: Emoji Icons (Currently Used)
+   These are simple Unicode icons used throughout the site:
+   
+   ✓ Check mark
+   ✗ Cross/X mark
+   📞 Phone
+   📧 Email
+   📍 Location
+   ⏰ Clock/Time
+   ⭐ Star
+   📱 Mobile
+   💻 Computer
+   🎯 Target
+   🏆 Trophy
+   🔒 Lock (Security)
+   🌟 Highlight
+   etc.
+*/
+
+/* Icon utility classes if needed */
+.icon-wrapper {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.125em;
+}
+
+.icon-large {
+    font-size: 2em;
+}
+
+.icon-small {
+    font-size: 0.8em;
+}
+
+/* Icon colors */
+.icon-primary {
+    color: #0066cc;
+}
+
+.icon-success {
+    color: #00a86b;
+}
+
+.icon-danger {
+    color: #ff6b35;
+}
+
+.icon-warning {
+    color: #ffc107;
+}
